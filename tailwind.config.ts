@@ -9,8 +9,9 @@ const config: Config = {
   darkMode: 'class',
   theme: {
     extend: {
-      backgroundImage: {
-      },
+      colors:{
+        title:'#2793F2'
+      }
     },
   },
   plugins: [],
