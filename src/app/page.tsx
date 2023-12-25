@@ -1,9 +1,13 @@
-import Image from 'next/image'
+"use client"
+import { ThemeProvider } from 'next-themes'
+import { NavBar } from './_components/NavBar'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center">
-      <h1>My portfolio</h1>
-    </main>
+    <ThemeProvider attribute='class'>
+      <main className="flex min-h-screen flex-col items-center">
+        <NavBar/>
+      </main>
+    </ThemeProvider>
   )
 }
