@@ -43,7 +43,7 @@ export const NavBar = () => {
       className="flex w-full flex-wrap items-center justify-between px-8"
     >
       <div>
-        <span className="text-lg lg:text-2xl">Juan Marmolejo.</span>
+        <span className="text-title text-lg lg:text-3xl">Juan</span>.
       </div>
       <div className="flex-1"></div>
       <div className="order-3 flex justify-end text-end lg:hidden">
