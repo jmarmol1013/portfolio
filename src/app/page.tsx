@@ -4,6 +4,7 @@ import { NavBar } from './_components/NavBar'
 import { Banner } from './_components/Banner'
 import { ScrollDown } from './_components/ScrollDown'
 import { About } from './_components/AboutMe'
+import { Skills } from './_components/Skills'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
           <ScrollDown/>
         </div>
         <About/>
+        <Skills/>
       </main>
     </ThemeProvider>
   )
