@@ -4,8 +4,8 @@ import React from "react";
 
 export const About = () => {
   return (
-    <div className="mb-10 flex flex-col justify-center" id="about">
-      <h2 className="text-title text-center text-5xl">About Me.</h2>
+    <div className="flex flex-col justify-center" id="about">
+      <h2 className="text-title text-center text-4xl lg:text-5xl">About Me.</h2>
       <div className="mt-4 flex w-full flex-col items-center px-4 align-middle lg:ml-[15%] lg:w-[70%] lg:flex-row lg:px-0">
         <div className="mr-2">
           <Image
