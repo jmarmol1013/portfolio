@@ -9,7 +9,7 @@ export const Skills = () => {
       Icon: FaReact,
       title: "Full stack Developer",
       description:
-        "Specializing in building web applications using leading technologies such as React and Angular on the frontend, and Tailwind on the CSS, and Node.js, Spring Boot and Django on the backend, and SQL and NoSQL databases.",
+        "I build web applications using leading technologies such as React and Angular on the frontend, and Tailwind on the CSS, and Node.js, Spring Boot and Django on the backend, and SQL and NoSQL databases.",
     },
     {
       Icon: MdScience,
@@ -26,7 +26,7 @@ export const Skills = () => {
   ];
 
   return (
-    <div className="mb-2 mt-10 flex flex-col justify-center">
+    <div className="mt-10 flex flex-col justify-center">
       <h2 className="text-title text-center text-4xl lg:text-5xl">My skills.</h2>
       <div className="mt-5 flex flex-col items-center justify-center lg:flex-row">
         <SkillsList skills={skills} />
