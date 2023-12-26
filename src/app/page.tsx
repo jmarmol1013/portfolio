@@ -3,6 +3,7 @@ import { ThemeProvider } from 'next-themes'
 import { NavBar } from './_components/NavBar'
 import { Banner } from './_components/Banner'
 import { ScrollDown } from './_components/ScrollDown'
+import { About } from './_components/AboutMe'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
           <Banner/>
           <ScrollDown/>
         </div>
+        <About/>
       </main>
     </ThemeProvider>
   )
