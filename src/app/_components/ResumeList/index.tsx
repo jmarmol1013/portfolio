@@ -1,4 +1,4 @@
-import { ResumeItem, ResumeListItem } from "@/app/ResumeListItem";
+import { ResumeItem, ResumeListItem } from "@/app/_components/ResumeListItem";
 import { useTheme } from "next-themes";
 import React from "react";
 import { VerticalTimeline } from "react-vertical-timeline-component";
