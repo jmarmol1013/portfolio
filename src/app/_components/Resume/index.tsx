@@ -4,7 +4,7 @@ import { ResumeItems, ResumeList } from "../ResumeList";
 import { MdOutlineWork } from "react-icons/md";
 import { RiGraduationCapFill } from "react-icons/ri";
 
-export const Resume: React.FC<void> = () => {
+export const Resume: React.FC<{}> = () => {
   const resumeItems: ResumeItems = [
     {
       title: "I&IT Technology Analyst/ Developer (CO-OP)",
