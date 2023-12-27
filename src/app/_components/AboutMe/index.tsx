@@ -28,7 +28,7 @@ export const About = () => {
             deliver high-quality results.
           </p>
           <Link href="https://drive.google.com/file/d/1uzW_1nCiBCmeA2IOUXkbgbBvysDV6kHJ/view?usp=sharing" target="_blank">
-            <div className="border-title bg-title mt-4 rounded-lg border-2 px-4 py-2 text-center hover:cursor-pointer hover:bg-inherit lg:w-[40%]">
+            <div className="border-title mt-4 rounded-lg border-2 px-4 py-2 text-center hover:cursor-pointer hover:bg-title lg:w-[40%]">
               <span>See my resume</span>
             </div>
           </Link>
