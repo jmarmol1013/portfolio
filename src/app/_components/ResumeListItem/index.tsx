@@ -39,7 +39,7 @@ export const ResumeListItem: React.FC<ResumeItemsProps> = ({ resumeItem }) => {
     >
       <h3 className="text-title text-xl">{resumeItem.title}</h3>
       <h4 className="text-lg">{resumeItem.subtitle}</h4>
-      <p>{resumeItem.description}</p>
+      <p className='text-gray-500'>{resumeItem.description}</p>
     </VerticalTimelineElement>
   );
 };
