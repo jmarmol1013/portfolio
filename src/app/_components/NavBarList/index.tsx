@@ -9,16 +9,16 @@ type Props = {
   closeNav: () => void;
 };
 
-export const NavBarList = (props: Props) => {
+export const NavBarList: React.FC<Props> = ({ items, closeNav }) => {
   return (
     <div className="ml-4 flex-row items-center justify-start lg:flex lg:flex-grow lg:justify-end">
       <div className="divide-y-2 lg:divide-y-0">
-        {props.items
-          ? props.items.map((item, index) => (
+        {items
+          ? items.map((item, index) => (
               <NavBarListItem
                 key={index}
                 item={item}
-                closeNav={props.closeNav}
+                closeNav={closeNav}
               />
             ))
           : null}
