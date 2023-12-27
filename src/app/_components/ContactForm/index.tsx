@@ -50,7 +50,7 @@ export const ContactForm = () => {
 
   return (
     <div className="w-full lg:ml-10 lg:w-1/2">
-      <form className="flex flex-col" action={sendForm} method="POST">
+      <form encType="application/x-www-form-urlencoded" className="flex flex-col" action={sendForm} method="POST">
         <label htmlFor="name" className="mt-2 text-lg">
           Name
         </label>
