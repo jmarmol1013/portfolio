@@ -8,6 +8,7 @@ import { Skills } from './_components/Skills'
 import { Resume } from './_components/Resume'
 import { Projects } from './_components/Projects'
 import { Contact } from './_components/Contact'
+import { Footer } from './_components/Footer'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Resume/>
         <Projects/>
         <Contact/>
+        <Footer/>
       </main>
     </ThemeProvider>
   )
