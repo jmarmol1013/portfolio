@@ -88,7 +88,7 @@ export const Projects: React.FC<{}> = () => {
   ];
 
   return (
-    <div className="my-10  flex flex-col justify-center" id="projects">
+    <div className="mt-10 mb-5 flex flex-col justify-center" id="projects">
       <h2 className="text-title text-center text-4xl lg:text-5xl">Projects.</h2>
       <ProjectsSelectorList
         projectSelectedType={projectSelectedType}
