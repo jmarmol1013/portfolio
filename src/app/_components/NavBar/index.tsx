@@ -33,7 +33,7 @@ export const NavBar = () => {
     },
     {
       title: "Contact",
-      link: "contacts",
+      link: "contact",
     },
   ];
 
