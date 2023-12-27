@@ -28,10 +28,6 @@ export const NavBar = () => {
       link: "projects",
     },
     {
-      title: "Blog",
-      link: "blog",
-    },
-    {
       title: "Contact",
       link: "contact",
     },
