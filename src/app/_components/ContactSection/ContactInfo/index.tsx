@@ -21,7 +21,7 @@ export const ContactInfo = () => {
         >
           <FaPhoneAlt size={24} />
         </div>
-        <div className="flex flex-col pl-6">
+        <div className="flex flex-col pl-4 lg:pl-6">
           <span className="text-lg">Contact on Phone</span>
           <a href="tel:+14374297321">
             <span className="hover:text-title text-gray-500">
@@ -38,7 +38,7 @@ export const ContactInfo = () => {
         >
           <IoMdMail size={24} />
         </div>
-        <div className="flex flex-col pl-6">
+        <div className="flex flex-col pl-4 lg:pl-6">
           <span className="text-lg">Contact on Mail</span>
           <a href="mailto:juanca10cantabria@gmail.com">
             <span className="hover:text-title text-gray-500">
