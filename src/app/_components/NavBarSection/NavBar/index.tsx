@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
-import { Button } from "../Button";
+import { Button } from "../../Button";
 import { NavBarList } from "../NavBarList";
 
 export const NavBar = () => {

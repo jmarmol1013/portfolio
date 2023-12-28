@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import { ProjectsSelectorList } from "../ProjectsSelectorList";
 import { StaticImageData } from "next/image";
 import { ProjectCardList } from "../ProjectCardList";
-import listifyLogo from "../../../../public/Projects/ListifyLogo.jpg";
-import arboledaLogo from "../../../../public/Projects/ArboledaLogo.png";
-import cdaLogo from "../../../../public/Projects/CDALogo.jpg";
-import collegeNetworkLogo from "../../../../public/Projects/CollegeNetworkLogo.jpg";
-import crmLogo from "../../../../public/Projects/crmLogo.jpg";
-import imsLogo from "../../../../public/Projects/IMSLogo.jpg";
+import listifyLogo from "@/public/Projects/ListifyLogo.jpg";
+import arboledaLogo from "@/public/Projects/ArboledaLogo.png";
+import cdaLogo from "@/public/Projects/CDALogo.jpg";
+import collegeNetworkLogo from "@/public/Projects/CollegeNetworkLogo.jpg";
+import crmLogo from "@/public/Projects/crmLogo.jpg";
+import imsLogo from "@/public/Projects/IMSLogo.jpg";
 
 export type ProjectType =
   | "All"
