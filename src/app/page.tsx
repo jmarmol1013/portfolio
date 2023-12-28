@@ -1,14 +1,14 @@
 "use client"
 import { ThemeProvider } from 'next-themes'
-import { NavBar } from './_components/NavBar'
-import { Banner } from './_components/Banner'
-import { ScrollDown } from './_components/ScrollDown'
-import { About } from './_components/AboutMe'
-import { Skills } from './_components/Skills'
-import { Resume } from './_components/Resume'
-import { Projects } from './_components/Projects'
-import { Contact } from './_components/Contact'
-import { Footer } from './_components/Footer'
+import { NavBar } from '@/components/NavBarSection/NavBar'
+import { Banner } from '@/components/Banner'
+import { ScrollDown } from '@/components/ScrollDown'
+import { About } from '@/components/AboutMe'
+import { Skills } from '@/components/SkillsSection/Skills'
+import { Resume } from '@/components/ResumeSection/Resume'
+import { Projects } from '@/components/ProjectSection/Projects'
+import { Contact } from '@/components/ContactSection/Contact'
+import { Footer } from '@/components/Footer'
 
 export default function Home() {
   return (
