@@ -8,6 +8,7 @@ import cdaLogo from "@/public/Projects/CDALogo.jpg";
 import collegeNetworkLogo from "@/public/Projects/CollegeNetworkLogo.jpg";
 import crmLogo from "@/public/Projects/crmLogo.jpg";
 import imsLogo from "@/public/Projects/IMSLogo.jpg";
+import mealMastermindLogo from "@/public/Projects/MealmastermindLogo.jpg";
 
 export type ProjectType =
   | "All"
@@ -36,6 +37,15 @@ export const Projects: React.FC<{}> = () => {
   ];
 
   const projects: Projects = [
+    {
+      logo: mealMastermindLogo,
+      title: "MealMastermind Web App",
+      description:
+        "Developed a full-stack web application using Next.js and Tailwind CSS, allowing users to register/login and access meal information suggested by a our custom algorithm for weekly meal preparation.",
+      type: "Web Development",
+      link: "https://meal-mastermind.vercel.app",
+      githubLink: "https://github.com/jmarmol1013/Meal-Mastermind",
+    },
     {
       logo: listifyLogo,
       title: "Listify Web App",
