@@ -23,22 +23,26 @@ export const ProjectCardListItem: React.FC<ProjectCardListItempProps> = ({
         alt={project.title}
         className="rounded-t-lg object-cover"
       />
-      <h3 className="text-title py-4 text-2xl">{project.title}</h3>
+      <h3 className="py-4 text-2xl text-title">{project.title}</h3>
       <p>{project.description}</p>
       <div className="mt-2 flex flex-row items-center justify-end">
-        {project.githubLink ? (
-          <Link href={project.githubLink} target="_blank">
-            <div
-              className={`${
-                theme == "light"
-                  ? `border-gray-300 hover:bg-gray-300`
-                  : `border-gray-500 hover:bg-gray-500`
-              } mr-2 flex flex-row items-center rounded-lg border-2 px-4 py-2 hover:cursor-pointer`}
-            >
-              <FaGithub size={24} />
-            </div>
-          </Link>
-        ) : null}
+        {project.githubLink
+          ? project.githubLink.map((link, index) => {
+              return (
+                <Link key={index} href={link} target="_blank">
+                  <div
+                    className={`${
+                      theme == "light"
+                        ? `border-gray-300 hover:bg-gray-300`
+                        : `border-gray-500 hover:bg-gray-500`
+                    } mr-2 flex flex-row items-center rounded-lg border-2 px-4 py-2 hover:cursor-pointer`}
+                  >
+                    <FaGithub size={24} />
+                  </div>
+                </Link>
+              );
+            })
+          : null}
         {project.link ? (
           <Link href={project.link} target="_blank">
             <div
